@@ -45,7 +45,7 @@ export const assets = {
     export const blog_data = [{
         id:1,
         title:"A detailed step by step guide to manage your lifestyle",
-        description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the..",
+        description:"Managing your lifestyle effectively requires a balance of physical health, mental well-being, productivity, and personal growth.",
         image:blog_pic_1,
         date:Date.now(),
         category:"Lifestyle",
@@ -55,7 +55,7 @@ export const assets = {
     {
         id:2,
         title:"How to create an effective startup roadmap or ideas",
-        description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the..",
+        description:"A step-by-step guide to planning and executing a startup roadmap, from ideation to launch. Learn key strategies, milestones, and best practices to set your venture on a path to success.",
         image:blog_pic_2,
         date:Date.now(),
         category:"Startup",
@@ -65,7 +65,7 @@ export const assets = {
     {
         id:3,
         title:"Learning new technology to boost your career in software",
-        description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the..",
+        description:"Discover how staying updated with emerging technologies can enhance your software development career. Explore tools, programming languages, and frameworks that can make you more competitive in the industry.",
         image:blog_pic_3,
         date:Date.now(),
         category:"Technology",
