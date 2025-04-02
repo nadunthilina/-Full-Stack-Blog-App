@@ -165,7 +165,7 @@ export const assets = {
     {
         id:13,
         title:"Tomorrow's Algorithms: Shaping the Landscape of Future AI",
-        description:"An exploration of the next-generation AI algorithms and their potential impact on industries, society, and daily life. Understand how AI is evolving and where it's headed.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the..",
+        description:"An exploration of the next-generation AI algorithms and their potential impact on industries, society, and daily life. Understand how AI is evolving and where it's headed.Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
         image:blog_pic_13,
         date:Date.now(),
         category:"Startup",
@@ -175,7 +175,7 @@ export const assets = {
     {
         id:14,
         title:"Balance & Bliss: Navigating Life's Journey with Style",
-        description:"A holistic approach to living a fulfilling life with elegance and purpose. Covers self-care, financial management, career planning, and mindfulness techniques.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the..",
+        description:"A holistic approach to living a fulfilling life with elegance and purpose. Covers self-care, financial management, career planning, and mindfulness techniques.Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
         image:blog_pic_14,
         date:Date.now(),
         category:"Lifestyle",
@@ -185,7 +185,7 @@ export const assets = {
     {
         id:15,
         title:"Exploring the Evolution of social networking in the Future",
-        description:"Discover how social media and networking platforms are evolving with AI, blockchain, and the metaverse. Learn how these changes will redefine online interactionsLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the..",
+        description:"Discover how social media and networking platforms are evolving with AI, blockchain, and the metaverse. Learn how these changes will redefine online interactionsLorem Ipsum is simply dummy text of the printing and typesetting industry. ",
         image:blog_pic_15,
         date:Date.now(),
         category:"Technology",
@@ -195,7 +195,7 @@ export const assets = {
     {
         id:16,
         title:"Shaping the Future of statup ecosystem in the world",
-        description:"Understand the factors influencing the global startup landscape, including funding trends, regulatory changes, and innovation hubs shaping the entrepreneurial ecosystem.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the..",
+        description:"Understand the factors influencing the global startup landscape, including funding trends, regulatory changes, and innovation hubs shaping the entrepreneurial ecosystem.Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
         image:blog_pic_16,
         date:Date.now(),
         category:"Startup",
