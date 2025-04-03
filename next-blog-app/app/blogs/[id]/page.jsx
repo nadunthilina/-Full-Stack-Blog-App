@@ -37,6 +37,13 @@ const BlogPage = ({ params: paramsPromise }) => {
       <Image className="border-4 border-white" src={data.image} width={1280} height={720} alt=""/>
       <h1 className="my-8 text-[26px] font-semibold">Introduction</h1>
       <p>{data.description}</p>
+      <h3 className="my-5 text-[18px] font-semibold">Physical Health
+✅ Maintain a balanced diet with nutritious foods.
+ Exercise regularly (at least 30 minutes a day).
+ Get 7-9 hours of quality sleep.</h3>
+
+<p className="my-3">Managing your lifestyle effectively requires a balance of physical health, mental well-being, productivity, and personal growth. Prioritizing physical health through a nutritious diet, regular exercise, sufficient sleep, and proper hydration ensures your body functions optimally. </p>
+<p className="my-3">Equally important is mental well-being, which can be maintained through mindfulness, stress management techniques, and meaningful social connections. Productivity plays a crucial role in leading an organized life, and this can be achieved by setting clear goals, managing time efficiently, and minimizing distractions.</p>
 
     </div>
     </>:<></>
