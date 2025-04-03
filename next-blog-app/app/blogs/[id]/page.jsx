@@ -1,6 +1,7 @@
 "use client";
 
 import { assets, blog_data } from "@/Assets/assets";
+import Footer from "@/Components/Footer";
 import Image from "next/image";
 import React, { useEffect, useState, use } from "react";
 
@@ -45,7 +46,25 @@ const BlogPage = ({ params: paramsPromise }) => {
 <p className="my-3">Managing your lifestyle effectively requires a balance of physical health, mental well-being, productivity, and personal growth. Prioritizing physical health through a nutritious diet, regular exercise, sufficient sleep, and proper hydration ensures your body functions optimally. </p>
 <p className="my-3">Equally important is mental well-being, which can be maintained through mindfulness, stress management techniques, and meaningful social connections. Productivity plays a crucial role in leading an organized life, and this can be achieved by setting clear goals, managing time efficiently, and minimizing distractions.</p>
 
+<div className="my-24">
+  <p className="text-black font font-semibold my-4">Share this article on social media</p>
+<div className="flex">
+  <Image src={
+    assets.facebook_icon
+  } width={50} alt=""/>
+  <Image src={
+    assets.twitter_icon
+  } width={50} alt=""/>
+  <Image src={
+    assets.googleplus_icon
+  } width={50} alt=""/>
+</div>
+</div>
+
+
+
     </div>
+    <Footer/>
     </>:<></>
   );
 };
