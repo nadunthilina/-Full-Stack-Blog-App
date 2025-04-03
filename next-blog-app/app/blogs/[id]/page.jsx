@@ -3,6 +3,7 @@
 import { assets, blog_data } from "@/Assets/assets";
 import Footer from "@/Components/Footer";
 import Image from "next/image";
+import Link from "next/link";
 import React, { useEffect, useState, use } from "react";
 
 const BlogPage = ({ params: paramsPromise }) => {
@@ -23,7 +24,9 @@ const BlogPage = ({ params: paramsPromise }) => {
   return (data?<>
     <div className="bg-gray-200 px-5 md:px-12 lg:px-28 py-2"> {/* Reduced height */}
       <div className="flex justify-between items-center">
+        <Link href='/'>
         <Image src={assets.nlogo} width={180} height={50} alt="Logo" className="w-[130px] sm:w-auto" />
+        </Link>
         <button className="flex items-center gap-2 font-medium py-2 px-4 sm:py-3 sm:px-6 border border-black shadow-[-7px_7px_0px_#000000]">
           Get Started <Image src={assets.arrow} width={20} height={20} alt="Arrow" />
         </button>
